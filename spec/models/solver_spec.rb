@@ -31,7 +31,7 @@ RSpec.describe Solver do
       expect(@solver.fizzbuzz(20)).to eq('Buzz')
       expect(@solver.fizzbuzz(35)).to eq('Buzz')
     end
-    
+
     it 'Should return FizzBuzz' do
       expect(@solver.fizzbuzz(15)).to eq('FizzBuzz')
       expect(@solver.fizzbuzz(3000)).to eq('FizzBuzz')
